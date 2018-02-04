@@ -1,38 +1,44 @@
-  ul.tabs {
-	  margin: 0px;
-		padding: 0px;
-		list-style: none;
-	}
-    li, ul {list-style-type:square;
-      /* list-style-image: url(bullet.gif); */
-      margin-left:20px;}
-    ul, ol{margin:10px 20px;padding:0 20px;} 
-		ul.tabs li {
-			cursor: pointer;
-      -moz-border-radius:3px;-webkit-border-radius:3px;
-      border-radius:3px;font-family:tahoma,Arial;
-      color:#3b5998;background:#d9e3ef;display:inline;
-      margin:0px;margin-left:5px;padding:0px 5px 0px 5px;
-      font-size:12px;border:1px solid #7aa5d6;
-      border-bottom:1px solid #7aa5d6;position:relative;top:2px
-		}
-		ul.tabs li.current{
-      -moz-border-radius:3px;-webkit-border-radius:3px;
-      border-radius:3px;font-family:tahoma,Arial;
-      color:#000;background:#FFF;display:inline;margin:0px;
-      margin-left:5px;padding:0px 5px 0px 5px;
-      border:1px solid #dbdadf;border-bottom:1px solid #FFF;
-      height:18px;position:relative;top:2px;font-size:12px;
-      /*background: #040404;*/
-		}
-		.tab-content{
-			display: none;
-			/* background: #ededed;
-			padding: 15px; */
-		}
-		.tab-content.current{
-			display: inherit;
-		}
+
+li, ul {
+  list-style-type:square;
+  /* list-style-image: url(bullet.gif); */
+  margin-left:20px;
+}
+ul, ol {
+  margin:10px 20px;
+  padding:0 20px;
+} 
+ul.tabs {
+  margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li {
+	cursor: pointer;
+  -moz-border-radius:3px;-webkit-border-radius:3px;
+  border-radius:3px;font-family:tahoma,Arial;
+  color:#3b5998;background:#d9e3ef;display:inline;
+  margin:0px;margin-left:5px;padding:0px 5px 0px 5px;
+  font-size:12px;border:1px solid #7aa5d6;
+  border-bottom:1px solid #7aa5d6;position:relative;top:2px
+}
+ul.tabs li.current {
+  -moz-border-radius:3px;-webkit-border-radius:3px;
+  border-radius:3px;font-family:tahoma,Arial;
+  color:#000;background:#FFF;display:inline;margin:0px;
+  margin-left:5px;padding:0px 5px 0px 5px;
+  border:1px solid #dbdadf;border-bottom:1px solid #FFF;
+  height:18px;position:relative;top:2px;font-size:12px;
+  /*background: #040404;*/
+}
+.tab-content{
+	display: none;
+	/* background: #ededed;
+	padding: 15px; */
+}
+.tab-content.current{
+	display: inherit;
+}
 
 a{color:#3366FF;background-color:inherit;text-decoration:none;}
 a:hover{color:#3399FF;background-color:inherit;}
@@ -43,25 +49,43 @@ a.bl:link{background:url(list.gif) no-repeat 0px 5px}
 a.bl:visited{background:url(list_checked.gif) no-repeat 0px 3px;}
 a.bl:hover{color:#1122FF;background:url(list_hover.gif) no-repeat 0px 3px;border-bottom:1px solid #888;}
 
-.about{width:600px;
+#tabs {
+  float:left;
+  width:490px;
+  margin:10px 5px 0px 10px;
+  padding:0;
+  background:#FFF;
+  display:inline;
+  text-align:left;
+}
+#tabs h1,
+#tabs p {padding-left:0;}
+#tn {
+  font-weight:bold;
+  margin-left:5px;
+  font-size:15px;
+  margin-right:10px;
+  float:left;
+}
+#niceborder{
+  border:1px solid #cfcfcf; border-top:none;
+  padding:0px;
+  margin:0px 0px 26px 0px;
+  -moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;
+}
+
+.about {
+  width:600px;
   margin-left:210px; padding:0;
   text-align:center;
   background:#FFF;
-  clear: both;}
-#tabs{float:left;width:490px;
-  margin:10px 5px 0px 10px;padding:0;
-  background:#FFF;display:inline;text-align:left;}
-#tabs h1,
-#tabs p{padding-left:0;}
-#tn{font-weight:bold;margin-left:5px;font-size:15px;margin-right:10px;float:left;}
-#niceborder{
-  border:1px solid #cfcfcf;border-top:none;
-  padding:0px;margin:0px 0px 26px 0px;
-  -moz-border-radius:8px;-webkit-border-radius:8px;
-  border-radius:8px;}
-
-.wrap{margin:0 auto;padding:0;
-  width:1020px;}
+  clear: both;
+}
+.wrap {
+  margin:0 auto;
+  padding:0;
+  width:1020px;
+}
 .categ{font-weight:bold;margin-left:5px;padding:0px;margin:0px;border-bottom:1px solid #7aa5d6;font-family:tahoma,Arial;}
 .parsedcontent{clear:both;margin:5px;margin-top:0px;padding-top:10px}
 .divider{height:1px;width:100%;padding:0px;margin:0px;background:#c5d7ef;font-size:1px;}
@@ -71,3 +95,6 @@ a.bl:hover{color:#1122FF;background:url(list_hover.gif) no-repeat 0px 3px;border
 #tabs ul.sidemenu li{border-bottom:1px solid #EFF0F1;background:url(arrow.gif) no-repeat 3px 6px;padding:2px 5px 2px 20px;}
 * html body #tabs ul.sidemenu li{height:1%;} 
 #tabs ul.sidemenu li a{font-weight:bolder;background-image:none;text-decoration:none;} */
+
+
+
