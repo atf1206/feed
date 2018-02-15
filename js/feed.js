@@ -1,4 +1,8 @@
 
+// 0-1
+var Courses = new Array('coursescontent', 'courses', '', '');
+var Coursera = new Array('courseracontent', 'courses', '', '');
+var unknown = new Array('unknown', 'courses', '', '');
 // 1-1
 var nytimes = new Array('nytimes', 'news', 10, 'http://www.nytimes.com', 'NYTimes.com');
 var reddit = new Array('reddit', "news", 10, 'https://www.reddit.com/', 'Reddit.com');
@@ -44,6 +48,12 @@ $(document).ready(function () {
 			$('.learntab').removeClass('current');
 			$("."+tab_id[0]).addClass('current');
 		}
+    
+    else if (tab_id[1] == "courses") {
+      $('.coursestab').removeClass('current');
+      $("."+tab_id[0]).addClass('current');
+    }
+
 		else if (tab_id[1] == "jobs") {
 			//$('.jobtab').removeClass('current');
 			//$("."+tab_id[0]).addClass('current');
